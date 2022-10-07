@@ -1,0 +1,26 @@
+.cellContainer {
+  display: flex;
+}
+
+.cell {
+  font-weight: 700;
+  font-size: 21px;
+  height: 52px;
+  line-height: 52px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 60px;
+  text-align: center;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  &:focus-visible,&:focus {
+    outline: 1px solid blue;
+    outline-offset: 2px;
+  }
+}
