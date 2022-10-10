@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "target": "ES6",
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
     "esModuleInterop": true,
     "jsx": "react",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist/types"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
-    "node_modules",
-    "./**/*.test.*",
-    "./**/*.stories.*"
+    "src/**/*.test.ts",
+    "src/**/*.stories.ts",
+    "src/jest.setup.ts"
   ]
 }
