@@ -13,7 +13,7 @@ export default [
         sourcemap: true
       },
       {
-        file: 'dist/CodeInput.esm',
+        file: 'dist/CodeInput.js',
         format: "esm",
         sourcemap: true
       }
