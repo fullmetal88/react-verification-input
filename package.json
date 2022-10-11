@@ -1,11 +1,13 @@
 {
   "name": "react-code-verification-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/CodeInput.cjs",
   "module": "dist/CodeInput.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
+  "types": "dist/CodeInput.d.ts",
   "repository": "https://github.com/fullmetal88/react-verification-input.git",
   "author": "fullmetal88 <igor.orszanski@sofomo.com>",
   "license": "MIT",
