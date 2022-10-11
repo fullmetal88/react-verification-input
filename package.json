@@ -1,8 +1,8 @@
 {
   "name": "react-code-verification-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/CodeInput.cjs",
-  "module": "dist/CodeInput.js",
+  "module": "dist/CodeInput.esm.js",
   "files": [
     "dist",
     "src"
