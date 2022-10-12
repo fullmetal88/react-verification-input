@@ -10,12 +10,10 @@ export default [
       {
         file: 'dist/CodeInput.cjs',
         format: "cjs",
-        sourcemap: true
       },
       {
-        file: 'dist/CodeInput.js',
+        file: 'dist/CodeInput.esm.js',
         format: "esm",
-        sourcemap: true
       }
     ],
     plugins: [
