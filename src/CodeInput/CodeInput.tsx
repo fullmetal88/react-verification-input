@@ -1,7 +1,6 @@
 import React, { FC, useState, useRef, useEffect } from 'react'
 
 import styles from './CodeInput.module.scss'
-import classnames from 'classnames'
 
 type Props = {
   cellClass?: string,
@@ -129,12 +128,12 @@ export const CodeInput: FC<Props> = ({
   }
 
   return (
-    <div className={classnames(styles.cellContainer, containerClass)}>
+    <div className={containerClass || styles.cellContainer}>
       {Array.from(Array(length).keys()).map((index) => (
         <input
           data-testid={`verify-code-input-${index}`}
           key={index}
-          className={classnames(styles.cell, cellClass)}
+          className={cellClass || styles.cell}
           tabIndex={index === 0 ? 0 : -1}
           onChange={() => null}
           onKeyDown={(e) => onCodeChange(e, index)}
