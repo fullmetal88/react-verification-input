@@ -1,11 +1,11 @@
-###Storybook demo
+### Storybook demo
 Try it youself at [Chromatic](https://main--635b7709c5f3c578f7a316c5.chromatic.com)
 
-###Installation
+### Installation
 ````
 npm i react-code-verification-input
 ````
-###Usage
+### Usage
 Use it as a controlled component, by suplying it with value and onChange value callback.
 ````
 import React, { useState } from 'react'
@@ -22,7 +22,7 @@ const [code, setCode] = useState('')
 />
 ````
 
-###Component props
+### Component props
 
 | Name | Type | Optional | Description |
 | --- | --- | --- | --- |
